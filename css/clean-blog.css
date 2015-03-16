@@ -19,13 +19,13 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
-a {
-  color: #404040;
-}
-a:hover,
+/*a {
+  color: orange;
+}*/
+/*a:hover,
 a:focus {
   color: #0085a1;
-}
+}*/
 a img:hover,
 a img:focus {
   cursor: zoom-in;
@@ -140,14 +140,14 @@ hr.small {
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
-  padding: 100px 0 50px;
+  padding: 90px 0 10px;
   color: white;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0;
+    padding: 100px 0 10px;
   }
 }
 .intro-header .site-heading,
@@ -161,7 +161,7 @@ hr.small {
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
-  font-size: 24px;
+  font-size: 30px;
   line-height: 1.1;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;

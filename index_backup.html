@@ -1,14 +1,12 @@
 ---
 layout: page
-description: "Deep Learning PhD Student"
-darken-header-img: 0.5
-darken-header-img2: 0.0
+description: "Machine Learning PhD Student"
 ---
 
 {% for post in paginator.posts %}
 {% if post.publish %}
 <div class="post-preview">
-    {% if post.blog %} <a href="{{ post.url | prepend: site.baseurl }}"> {% endif %}
+    <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">            {{ post.title }}
         </h2>
         {% if post.subtitle %}
@@ -16,15 +14,10 @@ darken-header-img2: 0.0
             {{ post.subtitle }}
         </h3>
         {% endif %}
-        <hr>
-     {% if post.blog %} </a> 
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p> 
-    {% else %}
-    {{ post.content }}
-    {% endif %}
-    
+    </a>
+    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
-<br/>
+<hr>
 {% endif %}
 {% endfor %}
 
@@ -45,13 +38,8 @@ darken-header-img2: 0.0
 {% endif %}
 
 
-
-
-
-<!-- <ul class="pgwSlider">
-    <li><img src="img/banner-gesture.jpg" alt=""></li>
-    <li><img src="img/banner_chalearn.png" alt=""></li>
-    <li><img src="img/2dconv.png" style="height:20px" alt=""></li>
-</ul> -->
-
-
+<ul class="pgwSlider">
+    <li><img src="img/banner-gesture.jpg" alt="Paris, France" data-description="Eiffel Tower and Champ de Mars"></li>
+    <li><img src="img/banner_chalearn.png" alt="Paris, France" data-description="sdqofkpzoekfpoqkzpfokpozfkpoqzkefpk pozf poqzkf pokz qpofkpzo ekfpokzqpofkpoefk poqzkpfok pfokp ozqkepfokzpof kpozkfpoqkzfpokpzqfokpqzofkpokzqfpok pozqk fpoz pokfpzok pok qpfokp ofkpoqzkfokzfpo kqpzoefkpozek f"></li>
+    <li><img src="img/2dconv.png" alt="Paris, France" data-description="Eiffel Tower and Champ de Mars"></li>
+</ul>
