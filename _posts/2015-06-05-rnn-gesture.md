@@ -24,3 +24,5 @@ darken2: 0.3
 
 We explore deep architectures for gesture recognition in video and propose a new end-to-end trainable neural network architecture incorporating temporal convolutions and bidirectional recurrence. Our main contributions are twofold; first, we show that recurrence is crucial for this task; second, we show that adding temporal convo- lutions leads to significant improvements. We evaluate the different approaches on the Montalbano gesture recognition dataset, where we achieve state-of-the-art results.
 
+[arxiv PDF](http://arxiv.org/abs/1506.01911)
+
