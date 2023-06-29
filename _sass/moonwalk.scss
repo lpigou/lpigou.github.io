@@ -17,11 +17,13 @@ html {
   --body-font: "Mukta", "Source Sans Pro", "Noto Sans JP","Lato", "superhelio _regular",  "Inter", -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
   // --header-font: "Press Start 2P"; 
   // --header-font: "Source Sans Pro"; 
-  --header-font: "Ubuntu Mono"; 
+  // --header-font: "Ubuntu Mono"; 
   // --header-font: "superhelio _regular"; 
-  // --header-font: "Mukta"; 
+  --header-font: "Mukta"; 
   // --header-font: "SF Pixelate"; 
-  --family-font: "superhelio _regular"; 
+  // --family-font: "superhelio _regular"; 
+  // --family-font: "Source Sans Pro"; 
+  --family-font: "Mukta"; 
   height: 100%; 
 }
 
@@ -43,7 +45,7 @@ pre, code {
   // margin-top: -0.5rem;
   // letter-spacing: 0.3rem;
   // text-transform: uppercase;
-  text-transform: lowercase;
+  // text-transform: lowercase;
   color: var(--headings);
 }
 
@@ -55,12 +57,12 @@ pre, code {
   // letter-spacing: 0.5rem;
   // text-transform: uppercase;
   // text-transform: lowercase;
-  // opacity: 50%;
+  opacity: 50%;
 }
 
 .introtitle .firstname{
   // opacity: 100%;
-  opacity: 50%;
+  // opacity: 50%;
 }
 
 h2, h3, h4, h5 { margin-top: 1.5em; }
