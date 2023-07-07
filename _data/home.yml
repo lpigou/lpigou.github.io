@@ -18,12 +18,13 @@ intro:
   description: > # description of the site (multiple lines allowed)
     Ghent, Belgium <br>
     Machine Learning Engineer
-  # projects_title: Tech Endeavorss
+  projects_title: Machine Learning
+  projects_title2: Game Development
 
 project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+  - title: Sign Language Recognition in TV News Broadcasts
+    url: slr-tv
+    desc: 
 
   - title: Project 2
     url: overview-post
@@ -33,6 +34,7 @@ project_entries:
     url: overview-post
     desc: You can control visibility from _config.yml file
 
+project_entries2:
   - title: Project 4
     url: overview-post
     desc: This project uses highlight markup, configured in _data/home.yml
@@ -47,23 +49,6 @@ project_entries:
     url: overview-post
     desc: It also has a scalable vertical list (in case you need it)
 
-old_project_entries:
-  - title: Soopr
-    url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
-    highlight: NEW
-
-  - title: Cookie
-    url: https://github.com/abhinavs/cookie
-    desc: An open source landing website with supporting pages and integrated blog
-
-  - title: Moonwalk
-    url: https://github.com/abhinavs/moonwalk
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
-
-  - title: Humangous
-    url: https://www.humangous.co
-    desc: The better people know you, the better they collaborate
 
 footer_entries:
   - title: abhinav's homepage

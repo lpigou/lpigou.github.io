@@ -16,20 +16,22 @@ layout: default
     </span>
   </div>
   {% if site.theme_config.show_description == true %}
-    <p>{{ site.data.home.intro.description }}</p>
+    <!-- <p>{{ site.data.home.intro.description }}</p> -->
+    <!-- <p>{% include intro.md %}</p> -->
+    <p>{% capture my_include %}{% include intro.md %}{% endcapture %}
+      {{ my_include | markdownify }}</p>
   {% endif %}
 </header>
 
 {{ content }}
 
-{% if site.theme_config.show_projects == true %}
-  {% if site.data.home.intro.projects_title %}
-  <h2>{{ site.data.home.intro.projects_title }}</h2>
-  {% endif %}
-  {% include card_list.html collection=site.data.home.project_entries %}
-{% endif %}
+<h2>{{ site.data.home.intro.projects_title }}</h2>
+{% include card_list.html collection=site.data.home.project_entries %}
 
-{% if site.theme_config.show_misc_list == true %}
+<h2>{{ site.data.home.intro.projects_title2 }}</h2>
+{% include card_list.html collection=site.data.home.project_entries2 %}
+
+<!-- {% if site.theme_config.show_misc_list == true %}
   <h2>{{ site.theme_config.home.title_misc_list }}</h2>
   {% include vertical_list.html collection=site.data.home.misc_entries %}
 {% endif %}
@@ -37,12 +39,12 @@ layout: default
 {% if site.theme_config.show_blog == true %}
   <h2>{{ site.theme_config.home.title_blog }}</h2>
   {% include post_list.html %}
-{% endif %}
-
+{% endif %} -->
+<!-- 
 {% if site.theme_config.show_old_projects == true %}
   <h2>{{ site.theme_config.home.title_old_projects }}</h2>
   {% include card_list.html collection=site.data.home.old_project_entries %}
-{% endif %}
+{% endif %} -->
 
 
 {% if site.theme_config.show_footer == true %}
