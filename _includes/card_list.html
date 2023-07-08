@@ -1,25 +1,21 @@
 <ul class="horizontal-list">
   {% for item in include.collection %}
 
-    <li class="card" onclick="location.href='{{ item.url }}';" style="cursor:pointer;">
-      <!-- <a href="{{ item.url }}"> -->
+    <li class="card" onclick="location.href='{{ item.url }}';" style="
+      cursor:pointer;
+      background-position: center;
+      background-size: cover;
+      {% if item.thumbnail %}
+      background-image: url('/assets/images/{{item.thumbnail}}');
+      {% endif %}
+      ">
         <span class="header">
           {{ item.title }}
-
           {% if item.highlight %}
             <mark>{{ item.highlight }}</mark>
           {% endif %}
 
         </span>
-
-        <!-- <hr /> -->
-
-        <!-- {% if item.desc != false %}
-        <p class="body">
-          {{ item.desc }}
-        </p>
-        {% endif %} -->
-      <!-- </a> -->
     </li>
 
   {% endfor %}

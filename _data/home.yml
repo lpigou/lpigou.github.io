@@ -24,6 +24,7 @@ intro:
 project_entries:
   - title: Sign Language Recognition in TV News Broadcasts
     url: slr-tv
+    thumbnail: projects/slr_tv.png
     desc: 
 
   - title: Project 2
