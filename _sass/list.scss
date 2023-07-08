@@ -18,19 +18,32 @@ ul.horizontal-list {
 }
 
 .card {
-  padding: 1em;
+  // padding: 1em;
   border: 1px var(--highlight) solid;
-  width: 11em;
-  height: auto;
+  width: 13em;
+  height: 10em;
   text-align: center;
   font-size: 1em;
   align-items: center;
   background-color: var(--bg-secondary);
   margin-bottom: 0.8em;
   border-radius: 0.5em;
+  position: relative;
+
+  .header-wrap{
+    background-color: #00000033 ;
+    border-radius: 0.5em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    backdrop-filter: blur(1rem);
+  }
 
   .header {
-    color: var(--text);
+    color: hsl(210, 7%, 87%);
+    // line-height: 0.8rem;
+    padding: 0.15em 0.5em 0.15em 0.5em;  
+    text-shadow: 0em 0em 0.5em black;
   }
 
   .body {

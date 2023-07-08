@@ -9,13 +9,15 @@
       background-image: url('/assets/images/{{item.thumbnail}}');
       {% endif %}
       ">
-        <span class="header">
+      <div class="header-wrap">
+        <div class="header">
           {{ item.title }}
           {% if item.highlight %}
             <mark>{{ item.highlight }}</mark>
           {% endif %}
 
-        </span>
+        </div>
+      </div>
     </li>
 
   {% endfor %}
