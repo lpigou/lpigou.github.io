@@ -22,18 +22,34 @@ intro:
   projects_title2: Game Development
 
 project_entries:
-  - title: Sign Language Recognition in TV News Broadcasts
+  - title: Encoder-Decoder Language Model for Sign Language Recognition
     url: slr-tv
-    thumbnail: projects/slr_tv.png
-    desc: 
+    thumbnail: projects/slr_tv3.png
+    # thumbnail: projects/slr_tv2.png
+    # thumbnail: projects/vrt.gif
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
+  - title: Residual Neural Networks for Sign Language Recognition
+    url: slr-tv
+    video: projects/corpus.mp4
 
-  - title: Project 3
+  - title: "Kaggle: U-Net Segmentation for Lung Cancer Prediction"
+    url: slr-tv
+    video: projects/kaggle-lung.mp4
+
+  - title: Recurrent Neural Networks for Gesture Recognition
+    url: gesture
+    video: projects/beyondtemppool.mp4
+    video-speed: 2
+
+  - title: "Kaggle 1st Place: Classifying Plankton"
     url: overview-post
-    desc: You can control visibility from _config.yml file
+    # thumbnail: projects/cyclicroll.png
+    thumbnail: projects/cyclicpool2.png
+    # video: projects/BlandEasyHamadryad.mp4
+
+  - title: Convolutional Neural Networks for Gesture Recognition
+    url: gesture
+    thumbnail: projects/gesture.gif
 
 project_entries2:
   - title: Project 4

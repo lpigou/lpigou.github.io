@@ -1,14 +1,19 @@
 <ul class="horizontal-list">
   {% for item in include.collection %}
 
-    <li class="card" onclick="location.href='{{ item.url }}';" style="
-      cursor:pointer;
-      background-position: center;
-      background-size: cover;
+    <li class="card" onclick="location.href='{{ item.url }}';" style="cursor:pointer;">
       {% if item.thumbnail %}
-      background-image: url('/assets/images/{{item.thumbnail}}');
+      <img src="/assets/images/{{item.thumbnail}}"></img>
       {% endif %}
-      ">
+      {% if item.video %}
+      <video loop autoplay muted
+      {% if item.video-speed %}
+      onloadstart="this.playbackRate = {{item.video-speed}};"
+      {% endif %}
+      >
+        <source src="/assets/images/{{item.video}}"  type="video/mp4">
+      </video>
+      {% endif %}
       <div class="header-wrap">
         <div class="header">
           {{ item.title }}
