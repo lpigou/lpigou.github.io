@@ -24,9 +24,9 @@ intro:
 project_entries:
   - title: Encoder-Decoder Language Model for Sign Language Recognition
     url: slr-tv
-    thumbnail: projects/slr_tv3.png
+    # thumbnail: projects/slr_tv3.png
     # thumbnail: projects/slr_tv2.png
-    # thumbnail: projects/vrt.gif
+    thumbnail: projects/vrt.gif
 
   - title: Residual Neural Networks for Sign Language Recognition
     url: slr-tv
@@ -44,8 +44,9 @@ project_entries:
   - title: "Kaggle 1st Place: Classifying Plankton"
     url: overview-post
     # thumbnail: projects/cyclicroll.png
-    thumbnail: projects/cyclicpool2.png
-    # video: projects/BlandEasyHamadryad.mp4
+    # thumbnail: projects/cyclicpool2.png
+    video: projects/BlandEasyHamadryad.mp4
+    video-speed: 2
 
   - title: Convolutional Neural Networks for Gesture Recognition
     url: gesture
