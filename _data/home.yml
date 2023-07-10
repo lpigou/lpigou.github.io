@@ -57,7 +57,7 @@ project_entries2:
     url: overview-post
     thumbnail: projects/pbd.webp
 
-  - title: "Ray Traced Reflections in Voxel Space"
+  - title: "Ray Traced Fog & Reflections in Voxel Space"
     url: overview-post
     thumbnail: projects/refl.gif
 

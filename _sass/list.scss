@@ -21,7 +21,8 @@ ul.horizontal-list {
 }
 
 .card {
-  border: 0.07rem var(--highlight) solid;
+  // border: 0.07rem var(--highlight) solid;
+  // box-shadow: 0.1rem 0.1rem #00000022;
   width: 13rem;
   height: 10rem;
   text-align: center;
@@ -53,7 +54,7 @@ ul.horizontal-list {
   // }
 
   .header-wrap{
-    background-color: color-mix(in srgb, var(--bg) 60%, transparent);
+    background-color: color-mix(in srgb, var(--bg) 70%, transparent);
     // background-color: var(--bg);
     border-radius: 0rem 0rem 0.5em 0.5em;
     position: absolute;
