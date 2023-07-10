@@ -53,19 +53,17 @@ project_entries:
     thumbnail: projects/gesture.gif
 
 project_entries2:
-  - title: Project 4
+  - title: "GPU Physics: Position Based Dynamics"
     url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
+    thumbnail: projects/pbd.webp
 
-  - title: Project 5
+  - title: "Ray Traced Reflections in Voxel Space"
     url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
+    thumbnail: projects/refl.gif
 
-  - title: Project 6
+  - title: "Voxel Meshing on GPU: Naive Surface Net"
     url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
+    thumbnail: projects/blockify.gif
 
 
 footer_entries:
