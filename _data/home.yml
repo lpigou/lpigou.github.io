@@ -63,7 +63,21 @@ project_entries2:
 
   - title: "Voxel Meshing on GPU: Naive Surface Net"
     url: overview-post
-    thumbnail: projects/blockify.gif
+    thumbnail: projects/interact.gif
+
+  - title: "Network Synchronized Multiplayer Boss Encounters"
+    url: overview-post
+    thumbnail: projects/netsync2.gif
+
+  - title: "Mad Adventures"
+    url: overview-post
+    thumbnail: projects/header2.jpg
+
+  - title: "Meor"
+    url: overview-post
+    thumbnail: projects/meor.gif
+
+
 
 
 footer_entries:
