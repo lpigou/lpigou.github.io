@@ -1,6 +1,6 @@
 navbar_entries:
   - title: cv
-    url: blog
+    url: assets/lionel_pigou_resume_public.pdf
 
   - title: linkedin
     url: https://www.linkedin.com/in/lionel-pigou-452b9166/
@@ -17,6 +17,7 @@ navbar_entries:
 intro:
   name: Lionel 
   family_name: Pigou
+  photo-url: assets/images/photo/2.jpg
   description: > # description of the site (multiple lines allowed)
     Ghent, Belgium <br>
     Machine Learning Engineer
@@ -25,7 +26,7 @@ intro:
   projects_title3: Published Games
 
 project_entries:
-  - title: Encoder-Decoder Language Model for Sign Language Recognition
+  - title: Encoder-Decoder Language Model for SLR
     url: slr-tv
     # thumbnail: projects/slr_tv3.png
     # thumbnail: projects/slr_tv2.png
@@ -56,7 +57,7 @@ project_entries:
     url: gesture
     thumbnail: projects/skel.PNG
 
-  - title: Convolutional Neural Networks for Gesture Recognition
+  - title: 3D ConvNets for Gesture Recognition
     url: gesture
     thumbnail: projects/gesture.gif
 

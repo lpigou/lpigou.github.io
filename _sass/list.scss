@@ -21,7 +21,7 @@ ul.horizontal-list {
 }
 
 .card {
-  // border: 0.07rem var(--highlight) solid;
+  // border: 0.1rem var(--highlight) solid;
   // box-shadow: 0.1rem 0.1rem #00000022;
   width: 13rem;
   height: 10rem;
@@ -54,19 +54,20 @@ ul.horizontal-list {
   // }
 
   .header-wrap{
-    background-color: color-mix(in srgb, var(--bg) 70%, transparent);
+    // border: 0.07rem var(--bg);
+    background-color: color-mix(in srgb, var(--bg) 50%, transparent);
     // background-color: var(--bg);
     border-radius: 0rem 0rem 0.5em 0.5em;
     position: absolute;
     bottom: 0;
     width: 100%;
-    backdrop-filter: blur(0.3rem);
+    backdrop-filter: blur(1rem);
 
     .header {
       color: var(--text);
       opacity: 1;
       line-height: 1.2rem;
-      padding: 0.15rem 0.5rem 0.15rem 0.5rem;  
+      padding: 0.15rem 0.25rem 0.15rem 0.25rem;  
       text-shadow: 0em 0em 0.3em var(--bg);
     }
   }

@@ -131,7 +131,7 @@ html {
       --text: hsl(210, 7%, 87%);
       --text-secondary: hsl(210, 7%, 70%);
       // --highlight: hsl(8, 38%, 63%);
-      --highlight: hsl(8, 43%, 68%);
+      --highlight: hsl(8, 52%, 68%);
       --bg-secondary: hsl(210, 9%, 21%);
       --headings: var(--text);
       --links:var(--highlight);
@@ -267,3 +267,29 @@ p code, li code {
   text-transform: lowercase;
   //border: 1px solid var(--text-secondary);
 }
+
+.photo-circle {
+  // border: 0.1rem var(--highlight) solid;
+  // display: flex;
+  width: 4rem; /* Adjust the size of the circle */
+  height: 4rem;
+  margin-top: -1.2rem;
+  // position: fixed;
+  // top: 1rem;
+  // right: 1rem;
+  border-radius: 50%;
+  overflow: hidden;
+  // position: absolute;
+  float: right;
+  opacity: 0.9;
+  // z-index: 1;
+}
+
+.photo-circle img {
+  // display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+

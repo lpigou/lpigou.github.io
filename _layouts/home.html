@@ -1,11 +1,19 @@
 ---
 layout: default
 ---
+
 <header>
-{% if site.theme_config.show_navbar == true %}
-  {% include horizontal_list.html collection=site.data.home.navbar_entries %}
-  <div class="dashed"></div>
-{% endif %}
+  {% if site.data.home.intro.photo-url %}
+  <span class="photo-circle">
+    <a href="{{ site.data.home.intro.photo-url }}" target=”_blank”>
+    <img src="{{ site.data.home.intro.photo-url }}" alt="Image">
+    </a>
+  </span>
+  {% endif %}
+  {% if site.theme_config.show_navbar == true %}
+    {% include horizontal_list.html collection=site.data.home.navbar_entries %}
+    <div class="dashed"></div>
+  {% endif %}
   <!-- <h1>{{ site.data.home.intro.name }} {{ site.data.home.intro.family_name }}</h1> -->
   <div class="introtitle">
     <span class="firstname"> 
