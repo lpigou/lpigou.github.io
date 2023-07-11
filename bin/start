@@ -1,3 +1,4 @@
 #!/bin/sh
 
 bundle exec jekyll serve --draft --future --livereload --force_polling
+# bundle exec jekyll serve --draft --future --livereload 

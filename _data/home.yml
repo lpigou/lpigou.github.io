@@ -20,33 +20,35 @@ intro:
     Machine Learning Engineer
   projects_title: Machine Learning
   projects_title2: Game Development
+  projects_title3: Published Games
 
 project_entries:
   - title: Encoder-Decoder Language Model for Sign Language Recognition
     url: slr-tv
     # thumbnail: projects/slr_tv3.png
     # thumbnail: projects/slr_tv2.png
-    thumbnail: projects/vrt.gif
+    thumbnail: projects/vrt2.gif
 
   - title: Residual Neural Networks for Sign Language Recognition
     url: slr-tv
-    video: projects/corpus.mp4
+    thumbnail: projects/corpus.gif
 
   - title: "Kaggle: U-Net Segmentation for Lung Cancer Prediction"
     url: slr-tv
-    video: projects/kaggle-lung.mp4
+    thumbnail: projects/kaggle-lung.gif
 
   - title: Recurrent Neural Networks for Gesture Recognition
     url: gesture
-    video: projects/beyondtemppool.mp4
-    video-speed: 2
+    thumbnail: projects/beyondtemppool.gif
+    # video: projects/beyondtemppool.mp4
+    # video-speed: 2
 
   - title: "Kaggle 1st Place: Classifying Plankton"
     url: overview-post
     # thumbnail: projects/cyclicroll.png
-    # thumbnail: projects/cyclicpool2.png
-    video: projects/BlandEasyHamadryad.mp4
-    video-speed: 2
+    thumbnail: projects/plankton.gif
+    # video: projects/BlandEasyHamadryad.mp4
+    # video-speed: 2
 
   - title: Convolutional Neural Networks for Gesture Recognition
     url: gesture
@@ -65,19 +67,31 @@ project_entries2:
     url: overview-post
     thumbnail: projects/interact.gif
 
+  - title: "Global Illumination using the Flood Fill Algorithm"
+    url: overview-post
+    thumbnail: projects/globillum1.gif
+
+  - title: "Procedural Generated Islands in Meor"
+    url: overview-post
+    thumbnail: projects/procgen.gif
+
+  - title: "Eulerian Fluid Simulation"
+    url: overview-post
+    thumbnail: projects/water1.gif
+
   - title: "Network Synchronized Multiplayer Boss Encounters"
     url: overview-post
     thumbnail: projects/netsync2.gif
 
+
+project_entries3:
   - title: "Mad Adventures"
     url: overview-post
     thumbnail: projects/header2.jpg
 
-  - title: "Meor"
+  - title: "Meor (Playtest)"
     url: overview-post
     thumbnail: projects/meor.gif
-
-
 
 
 footer_entries:
