@@ -1,16 +1,18 @@
 navbar_entries:
-
   - title: cv
     url: blog
 
   - title: linkedin
-    url: https://www.abhinav.co
+    url: https://www.linkedin.com/in/lionel-pigou-452b9166/
 
   - title: kaggle
-    url: https://www.abhinav.co
+    url: https://www.kaggle.com/lpigou
+
+  - title: google scholar
+    url: https://scholar.google.com/citations?user=5a39CMoAAAAJ&hl=en
 
   - title: steam
-    url: https://www.abhinav.co
+    url: https://store.steampowered.com/search/?developer=Nel
 
 intro:
   name: Lionel 
@@ -49,6 +51,10 @@ project_entries:
     thumbnail: projects/plankton.gif
     # video: projects/BlandEasyHamadryad.mp4
     # video-speed: 2
+
+  - title: HMMs and 3D CNNs for Gesture Recognition
+    url: gesture
+    thumbnail: projects/skel.PNG
 
   - title: Convolutional Neural Networks for Gesture Recognition
     url: gesture
