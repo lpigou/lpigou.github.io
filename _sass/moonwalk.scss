@@ -51,7 +51,7 @@ pre, code {
 
 .introtitle .familyname{
   font-family: var(--family-font);
-  color: var(--text);
+  // color: var(--highlight);
   // margin-left: 0.2rem;
   // font-size: 2.5rem;
   // letter-spacing: 0.5rem;
@@ -60,10 +60,12 @@ pre, code {
   opacity: 50%;
 }
 
-.introtitle .firstname{
-  opacity: 100%;
+// .introtitle .firstname{
+  // color: var(--highlight);
+  // color: var(--text);
+  // opacity: 100%;
   // opacity: 50%;
-}
+// }
 
 h2, h3, h4, h5 { margin-top: 1.5em; }
 
@@ -281,7 +283,7 @@ p code, li code {
   overflow: hidden;
   // position: absolute;
   float: right;
-  opacity: 0.9;
+  // opacity: 0.9;
   // z-index: 1;
 }
 
