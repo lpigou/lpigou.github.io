@@ -116,15 +116,15 @@ img {
   margin: 0 auto;
 }
 html {
-    --bg: #f1f1f1;
+    --bg: #f3f3f3;
     --bg-secondary: #f1f1f1;
-    --headings: #1e293b;
-    --text: #374151;
+    --text: #1c1c1c;
     --text-secondary: #6b7280;
-    --links: #6366f1;
-    --highlight: #FFECB2; // light yellow
+    --highlight: hsl(8, 82%, 41%);
     --code-text: #9D174D;
     --share-text: #999;
+    --headings: var(--text);
+    --links:var(--highlight);
 }
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
@@ -293,5 +293,24 @@ p code, li code {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+
+  // This is a trick to offload the blur to GPU: https://stackoverflow.com/questions/31713468/css-blur-filter-performance
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000;
+  transform: translate3d(0,0,0);
+  transform: translateZ(0);
+  
+  filter: brightness(0.95);
+}
+
+.shareon{
+  opacity: 0.8;
+  transform-origin: left top;
+  transform: scale(0.7);
+  margin-bottom: -0.5rem;
 }
 

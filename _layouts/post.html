@@ -6,3 +6,49 @@ layout: default
 <h1 class="post-title">{{ page.title }}</h1>
 {% include date_and_social_share.html %}
 {{ content }}
+
+<!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript" >
+
+    MathJax.Hub.Config({
+        "HTML-CSS": {
+          availableFonts: ["TeX"],
+        },
+        tex2jax: {
+          inlineMath: [['$','$'],["\\(","\\)"]]},
+          displayMath: [ ['$$','$$'], ['\[','\]'] ],
+        TeX: {
+          extensions: ["AMSmath.js", "AMSsymbols.js", "color.js"],
+          equationNumbers: {
+            autoNumber: "AMS"
+          }
+        },
+        showProcessingMessages: false,
+        messageStyle: "none",
+        imageFont: null,
+        "AssistiveMML": { disabled: true }
+      });
+    </script> -->
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"> -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_HTML">
+// <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_CHTML">
+    MathJax.Hub.Config({
+      "HTML-CSS": {
+        availableFonts: ["TeX"],
+      },
+      tex2jax: {
+        inlineMath: [['$','$'],["\\(","\\)"]]},
+        displayMath: [ ['$$','$$'], ['\[','\]'] ],
+      TeX: {
+        extensions: ["AMSmath.js", "AMSsymbols.js", "color.js"],
+        equationNumbers: {
+          autoNumber: "AMS"
+        }
+      },
+      showProcessingMessages: false,
+      messageStyle: "none",
+      imageFont: null,
+      "AssistiveMML": { disabled: true }
+    });
+  </script>
