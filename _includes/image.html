@@ -1,4 +1,17 @@
 <figure class="image">
-    <img src="{{ include.url }}" alt="{{ include.description }}">
-    <figcaption>{{ include.description }}</figcaption>
+    <img src="{{ include.url }}" 
+        {% if include.caption %}
+            alt="{{ include.caption }}"
+        {% endif %}
+        
+        onclick="location.href='{{ include.url }}';" 
+        style="cursor:pointer;
+            {% if include.height %}
+                height:{{include.height}};
+            {% endif %}
+        "
+    >
+    {% if include.caption %}
+        <figcaption>{{ include.caption }}</figcaption>
+    {% endif %}
 </figure>

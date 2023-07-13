@@ -26,7 +26,7 @@ intro:
   projects_title3: Solo-developed Games
 
 project_entries:
-  - title: Encoder-Decoder Language Model for SLR
+  - title: Multimodal Language Model for SLR
     url: slr-tv
     # thumbnail: projects/slr_tv3.png
     # thumbnail: projects/slr_tv2.png
