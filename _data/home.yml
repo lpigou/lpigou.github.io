@@ -92,14 +92,13 @@ project_entries2:
 
 
 project_entries3:
-  - title: "Mad Adventures"
-    url: overview-post
-    thumbnail: projects/header2.jpg
-
   - title: "Meor (Playtest)"
     url: overview-post
     thumbnail: projects/meor.gif
-
+    
+  - title: "Mad Adventures"
+    url: overview-post
+    thumbnail: projects/header2.jpg
 
 footer_entries:
   - title: abhinav's homepage
