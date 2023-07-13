@@ -33,7 +33,7 @@ project_entries:
     thumbnail: projects/vrt2.gif
 
   - title: Residual Neural Networks for Sign Language Recognition
-    url: slr-tv
+    url: slr-residual
     thumbnail: projects/corpus.gif
 
   - title: "Kaggle: U-Net Segmentation for Lung Cancer Prediction"
