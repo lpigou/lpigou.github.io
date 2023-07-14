@@ -54,16 +54,16 @@ project_entries:
     # video-speed: 2
 
   - title: HMMs and 3D CNNs for Gesture Recognition
-    url: gesture
+    url: gesture-hmm
     thumbnail: projects/skel.PNG
 
   - title: 3D ConvNets for Gesture Recognition
-    url: gesture
+    url: gesture-cnn
     thumbnail: projects/gesture.gif
 
 project_entries2:
   - title: "GPU Physics: Position Based Dynamics"
-    url: overview-post
+    url: pbd
     thumbnail: projects/pbd.webp
 
   - title: "Ray Traced Fog & Reflections in Voxel Space"
