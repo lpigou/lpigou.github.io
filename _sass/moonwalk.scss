@@ -336,3 +336,17 @@ p code, li code {
   font-size: 0.95rem;
 }
 
+.youtube-video{
+  background-color: var(--bg-secondary);
+  object-fit: contain;
+  text-align: center;
+  box-shadow: 0px 0px 0.5rem #00000022;
+  width: 100%;
+  height: 20rem;
+  margin: 1.4rem 0rem 1.4rem 0rem;
+}
+
+.youtube-video iframe{
+  aspect-ratio: 16 / 9;
+}
+
