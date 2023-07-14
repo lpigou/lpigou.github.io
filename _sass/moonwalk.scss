@@ -119,6 +119,7 @@ html {
     --bg: #f3f3f3;
     --bg-secondary: #f1f1f1;
     --text: #1c1c1c;
+    --text-standout: #000000;
     --text-secondary: #6b7280;
     --highlight: hsl(8, 82%, 41%);
     --code-text: #9D174D;
@@ -132,7 +133,8 @@ html {
       --bg: hsl(210, 7%, 18%);
       --text: hsl(210, 7%, 87%);
       --text-secondary: hsl(210, 7%, 70%);
-      // --highlight: hsl(8, 38%, 63%);
+      --text-standout: #f5f5f5;
+    // --highlight: hsl(8, 38%, 63%);
       --highlight: hsl(8, 70%, 73%);
       --bg-secondary: hsl(210, 9%, 21%);
       --headings: var(--text);
@@ -325,7 +327,7 @@ p code, li code {
 }
 
 .blog-post figure{
-  margin: 0px;
+  margin: 1.4rem 0rem 1.4rem 0rem;
 }
 
 .blog-post figcaption{

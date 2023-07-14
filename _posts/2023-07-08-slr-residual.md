@@ -28,7 +28,7 @@ Zwitserlood, 2008), filmed from two viewpoints." %}
 
 Corpus VGT: Contains videos of Deaf signers using Flemish Sign Language, with similar tasks and annotations as Corpus NGT. The videos are recorded at 50 frames per second and include 12,599 video-gloss pairs from 53 different signers.
 
-{% include image.html url="/assets/images/posts/slr-residual/6.png"
+{% include image.html url="/assets/images/posts/slr-residual/6.png" height="10rem"
     caption="The relative frequency for the five most
 common signs in both corpora. The class imbalance is
 significant in both corpora, but is especially prevalent for
@@ -46,7 +46,7 @@ In this section, we focus on recognizing isolated signs in the sign language vid
 
 Data preparation involves preprocessing the input frames by converting them to grayscale, resizing them, and subtracting the previous frame to remove static information. The clips are sampled at 6.25 frames per second, and the 100 most frequently used signs are extracted for training, validation, and testing.
 
-{% include image.html url="/assets/images/posts/slr-residual/1.png"
+{% include image.html url="/assets/images/posts/slr-residual/1.png" height="10rem"
     caption="Left: Original RGB-data. Right: Model input.
     The RGB channels are converted to gray-scale, resized to
     128x128 pixels and the previous frame is subtracted from
@@ -67,7 +67,7 @@ In this section, we tackle the challenge of recognizing signs in a continuous se
 
 The network architecture includes residual building blocks and incorporates spatial and temporal convolutions to capture motion features. The models are trained end-to-end, optimizing the cross-entropy loss function using gradient descent with the Adam update rule.
 
-{% include image.html url="/assets/images/posts/slr-residual/4.png"  height="17rem" 
+{% include image.html url="/assets/images/posts/slr-residual/4.png"  height="16rem" 
     caption="The residual building-block used in the deep
 neural networks for both models.
 " %}

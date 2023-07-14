@@ -37,17 +37,17 @@ project_entries:
     thumbnail: projects/corpus.gif
 
   - title: "Kaggle: U-Net Segmentation for Lung Cancer Prediction"
-    url: slr-tv
+    url: kaggle-lung
     thumbnail: projects/kaggle-lung.gif
 
   - title: Recurrent Neural Networks for Gesture Recognition
-    url: gesture
-    thumbnail: projects/beyondtemppool.gif
+    url: gesture-rnn
+    thumbnail: projects/beyondtemppool2.gif
     # video: projects/beyondtemppool.mp4
     # video-speed: 2
 
   - title: "Kaggle 1st Place: Classifying Plankton"
-    url: overview-post
+    url: kaggle-plankton
     # thumbnail: projects/cyclicroll.png
     thumbnail: projects/plankton.gif
     # video: projects/BlandEasyHamadryad.mp4
