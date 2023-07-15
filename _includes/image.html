@@ -4,9 +4,14 @@
             {% if include.caption %}
                 alt="{{ include.caption }}"
             {% endif %}
+            style="
             {% if include.height %}
-                style="height:{{include.height}};"
+                height:{{include.height}};
             {% endif %}
+            {% if include.cover == true %}
+                object-fit:cover;
+            {% endif %}
+            "
         >
     </a>
     {% if include.caption %}

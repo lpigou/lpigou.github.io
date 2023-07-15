@@ -67,7 +67,7 @@ project_entries2:
     thumbnail: projects/pbd.webp
 
   - title: "Ray Traced Fog & Reflections in Voxel Space"
-    url: overview-post
+    url: raytrace
     thumbnail: projects/refl.gif
 
   - title: "Voxel Meshing on GPU: Naive Surface Net"
