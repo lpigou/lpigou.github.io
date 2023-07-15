@@ -70,8 +70,8 @@ project_entries2:
     url: raytrace
     thumbnail: projects/refl.gif
 
-  - title: "Voxel Meshing on GPU: Naive Surface Net"
-    url: overview-post
+  - title: "Voxel Meshing on GPU: Naive Surface Nets"
+    url: meshing
     thumbnail: projects/interact.gif
 
   - title: "Global Illumination using the Flood Fill Algorithm"
