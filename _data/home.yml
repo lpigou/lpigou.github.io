@@ -22,8 +22,8 @@ intro:
     Ghent, Belgium <br>
     Machine Learning Engineer
   projects_title: Machine Learning
-  projects_title2: Game Development
-  projects_title3: Solo-developed Games
+  projects_title2: Graphics Engineering
+  projects_title3: Game Development
 
 project_entries:
   - title: Multimodal Language Model for SLR
@@ -75,7 +75,7 @@ project_entries2:
     thumbnail: projects/interact.gif
 
   - title: "Global Illumination using the Flood Fill Algorithm"
-    url: overview-post
+    url: globillum
     thumbnail: projects/globillum1.gif
 
   - title: "Procedural Generated Islands in Meor"
@@ -86,12 +86,11 @@ project_entries2:
     url: overview-post
     thumbnail: projects/water1.gif
 
+project_entries3:
   - title: "Network Synchronized Multiplayer Boss Encounters"
     url: overview-post
     thumbnail: projects/netsync2.gif
 
-
-project_entries3:
   - title: "Meor (Playtest)"
     url: overview-post
     thumbnail: projects/meor.gif
