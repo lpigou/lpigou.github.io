@@ -79,7 +79,7 @@ project_entries2:
     thumbnail: projects/globillum1.gif
 
   - title: "Eulerian Fluid Simulation"
-    url: overview-post
+    url: fluid
     thumbnail: projects/water1.gif
 
 project_entries3:
