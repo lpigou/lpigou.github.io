@@ -78,15 +78,16 @@ project_entries2:
     url: globillum
     thumbnail: projects/globillum1.gif
 
-  - title: "Procedural Generated Islands in Meor"
-    url: overview-post
-    thumbnail: projects/procgen.gif
-
   - title: "Eulerian Fluid Simulation"
     url: overview-post
     thumbnail: projects/water1.gif
 
 project_entries3:
+
+  - title: "Procedurally Generated Islands in Meor"
+    url: procgen
+    thumbnail: projects/procgen.gif
+
   - title: "Network Synchronized Multiplayer Boss Encounters"
     url: overview-post
     thumbnail: projects/netsync2.gif
