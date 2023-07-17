@@ -89,7 +89,7 @@ project_entries3:
     thumbnail: projects/procgen.gif
 
   - title: "Network Synchronized Multiplayer Boss Encounters"
-    url: overview-post
+    url: netsync
     thumbnail: projects/netsync2.gif
 
   - title: "Meor (Playtest)"
