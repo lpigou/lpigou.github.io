@@ -348,5 +348,8 @@ p code, li code {
 
 .youtube-video iframe{
   aspect-ratio: 16 / 9;
+  max-width: 100%;
+  
+  // width: 100%;
 }
 
