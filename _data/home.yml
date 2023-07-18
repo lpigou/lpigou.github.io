@@ -14,8 +14,8 @@ navbar_entries:
   - title: google scholar
     url: https://scholar.google.com/citations?user=5a39CMoAAAAJ&hl=en
 
-  - title: steam
-    url: https://store.steampowered.com/search/?developer=Nel
+  # - title: steam
+  #   url: https://store.steampowered.com/search/?developer=Nel
 
 intro:
   name: Lionel 

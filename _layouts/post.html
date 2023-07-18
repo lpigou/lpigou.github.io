@@ -8,9 +8,26 @@ layout: default
 {% else %}
 {% include date_and_social_share.html %}
 {% endif %}
+
 <div class="blog-post">
 {{ content }}
 </div>
+
+{% if page.no-sharing %}
+{% else %}
+<div class="col-lg-8 col-md-10 mx-auto">
+  <br>
+  <hr />
+  <script src="https://utteranc.es/client.js"
+        repo="lpigou/lpigou.github.io"
+        issue-term="pathname"
+        label="✨💬✨"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+  </script>
+</div>
+{% endif %}
 
 <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

@@ -32,7 +32,7 @@ The flood fill algorithm is a well-known technique used in computer graphics and
 
 In the context of global illumination, the flood fill algorithm allows us to efficiently propagate light across the game world. By treating each cell as a potential source or receiver of light, we can iteratively calculate the lighting values for every point in the scene.
 
-To store the lighting information efficiently, Meor utilizes cascading clipmap Level of Detail (LOD) grids. These grids allow for the representation of varying levels of lighting detail, depending on the distance from the viewer. This approach strikes a balance between visual fidelity and performance.
+To store the lighting information efficiently, [Meor](/meor) utilizes cascading clipmap Level of Detail (LOD) grids. These grids allow for the representation of varying levels of lighting detail, depending on the distance from the viewer. This approach strikes a balance between visual fidelity and performance.
 
 ## Sunlight
 {% include youtube.html id="NQ5RxDZqdbA" height="20rem"%}
