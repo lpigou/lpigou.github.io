@@ -6,7 +6,8 @@ description: > # description of the site (multiple lines allowed)
 
 permalink: /:slug
 
-favicon: "./logo.png" # relative path to site's favicon
+# favicon: "./logo.png" # relative path to site's favicon
+favicon: "./assets/images/photo/2.jpg" # relative path to site's favicon
 
 twitter:
     username: lpigou # update or delete this

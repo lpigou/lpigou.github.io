@@ -1,4 +1,7 @@
 navbar_entries:
+  - title: contact
+    url: contact
+
   - title: cv
     url: assets/lionel_pigou_resume_public.pdf
 
@@ -92,12 +95,12 @@ project_entries3:
     url: netsync
     thumbnail: projects/netsync2.gif
 
-  - title: "Meor (Playtest)"
-    url: overview-post
+  - title: "Meor"
+    url: meor
     thumbnail: projects/meor.gif
     
   - title: "Mad Adventures"
-    url: overview-post
+    url: mad-adventures
     thumbnail: projects/header2.jpg
 
 footer_entries:
